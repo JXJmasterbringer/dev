@@ -1,4 +1,4 @@
-loadstring(game:HttpGet(('https://raw.githubusercontent.com/JXJmasterbringer/beta/main/watermark'),true))()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/JXJmasterbringer/dev/main/skyboxes'),true))()
 wait()
 local StrToNumber = tonumber;
 local Byte = string.byte;
