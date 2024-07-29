@@ -14,7 +14,4 @@ Sky.SkyboxBk = a
                   Sky.SkyboxRt = e
                        Sky.SkyboxUp = f
 
-                            Sky.SkyboxBk = imageEight
-                                Sky.SkyboxDn = imageEight
-                                     Sky.SkyboxFt = imageEight
-                                          Sky.SkyboxLf = imageEight    
+                        
