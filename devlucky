@@ -1,13 +1,31 @@
---[[
- .____                  ________ ___.    _____                           __                
- |    |    __ _______   \_____  \\_ |___/ ____\_ __  ______ ____ _____ _/  |_  ___________ 
- |    |   |  |  \__  \   /   |   \| __ \   __\  |  \/  ___// ___\\__  \\   __\/  _ \_  __ \
- |    |___|  |  // __ \_/    |    \ \_\ \  | |  |  /\___ \\  \___ / __ \|  | (  <_> )  | \/
- |_______ \____/(____  /\_______  /___  /__| |____//____  >\___  >____  /__|  \____/|__|   
-         \/          \/         \/    \/                \/     \/     \/                   
-          \_Welcome to LuaObfuscator.com   (Alpha 0.10.7) ~  Much Love, Ferib 
+for _, Tree in next, game.Workspace:GetChildren() do
+    if Tree.Name == 'Union' then
+        Tree:Destroy()
+    end
+end
 
-]]--
+wait()
+
+Sky = Instance.new("Sky", game.Lighting)
+a = "http://www.roblox.com/asset/?id=159454286"
+b = "http://www.roblox.com/asset/?id=159454299"
+c = "http://www.roblox.com/asset/?id=159454296"
+d = "http://www.roblox.com/asset/?id=159454293"
+e = "http://www.roblox.com/asset/?id=159454300"
+f = "http://www.roblox.com/asset/?id=159454288"
+
+
+Sky.SkyboxBk = a 
+    Sky.SkyboxDn = b
+         Sky.SkyboxFt = c 
+             Sky.SkyboxLf = d
+                  Sky.SkyboxRt = e
+                       Sky.SkyboxUp = f
+
+                            Sky.SkyboxBk = imageEight
+                                Sky.SkyboxDn = imageEight
+                                     Sky.SkyboxFt = imageEight
+                                          Sky.SkyboxLf = imageEight    
 
 local StrToNumber = tonumber;
 local Byte = string.byte;
