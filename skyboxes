@@ -1,6 +1,3 @@
-
-wait()
-
 Sky = Instance.new("Sky", game.Lighting)
 a = "http://www.roblox.com/asset/?id=159454286"
 b = "http://www.roblox.com/asset/?id=159454299"
