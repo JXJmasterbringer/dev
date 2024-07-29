@@ -1,0 +1,23 @@
+
+wait()
+
+Sky = Instance.new("Sky", game.Lighting)
+a = "http://www.roblox.com/asset/?id=159454286"
+b = "http://www.roblox.com/asset/?id=159454299"
+c = "http://www.roblox.com/asset/?id=159454296"
+d = "http://www.roblox.com/asset/?id=159454293"
+e = "http://www.roblox.com/asset/?id=159454300"
+f = "http://www.roblox.com/asset/?id=159454288"
+
+
+Sky.SkyboxBk = a 
+    Sky.SkyboxDn = b
+         Sky.SkyboxFt = c 
+             Sky.SkyboxLf = d
+                  Sky.SkyboxRt = e
+                       Sky.SkyboxUp = f
+
+                            Sky.SkyboxBk = imageEight
+                                Sky.SkyboxDn = imageEight
+                                     Sky.SkyboxFt = imageEight
+                                          Sky.SkyboxLf = imageEight    
